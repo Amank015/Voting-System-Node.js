@@ -32,4 +32,4 @@ const candidateSchema = new mongoose.Schema({
 })
 
 const Candidate  = mongoose.model("Candidate",candidateSchema)
-module.exports = User
+module.exports = Candidate
